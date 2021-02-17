@@ -9,6 +9,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <p>{process.env.REACT_APP_NPM_PACKAGE_VERSION}</p>
         <a
           className="App-link"
           href="https://reactjs.org"
